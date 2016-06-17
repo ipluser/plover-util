@@ -38,7 +38,7 @@ ArrayUtil.pushAll(desArray, srcArray);  // [1, 2, 3, 4, 5]
 目标数组
 
 
-## delegate
+## Delegate
 将目标对象的方法添加到指定的对象中。
 
 ```js
