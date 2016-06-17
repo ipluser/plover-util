@@ -6,9 +6,29 @@
 [![Test coverage][coveralls-image]][coveralls-url]
 
 
-【核心模块】有些在核心中使用的工具模块，但在插件中也要使用，所以独立出来。
+【核心模块】核心模块中常用工具模块。
 
 **注: 核心中没用到的模块不放到此包中**
+
+
+## Usage
+```js
+const PloverUtil = require('plover-util');
+const ArrayUtil = PloverUtil.Array;
+
+let desArray = [1, 2, 3];
+let srcArray = [4, 5];
+
+ArrayUtil.pushAll(desArray, srcArray);  // [1, 2, 3, 4, 5]
+// desArray -> [1, 2, 3, 4, 5]
+```
+
+## List
+ - [Array](docs/array.md) - 提供数组相关的常用方法。
+ - [Delegate](docs/delegate.md) - 将目标对象的方法添加到指定的对象中。
+ - [Lang](docs/lang.md) - 提供JS语言基础类型的常用方法。
+ - [RouteInfo](docs/route-info.md) - 提供`Route`相关的常用方法。
+ - [SafeString](docs/safe-string.md) - 安全字符串对象。
 
 
 [npm-image]: https://img.shields.io/npm/v/plover-util.svg?style=flat-square
