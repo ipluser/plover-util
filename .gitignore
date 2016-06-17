@@ -1,9 +1,3 @@
-.idea
-*.log
 node_modules
 coverage
-
-### OSX template
-.DS_Store
-.AppleDouble
-.LSOverride
+npm-debug.log
