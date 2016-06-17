@@ -1,7 +1,7 @@
 'use strict';
 
 
-const RouteInfo = require('../lib/route-info');
+const RouteInfo = require('..').RouteInfo;
 
 
 describe('route-info', function() {

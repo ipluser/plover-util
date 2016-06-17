@@ -1,7 +1,7 @@
 'use strict';
 
 
-const arrayUtil = require('../lib/array');
+const arrayUtil = require('..').Array;
 
 
 describe('array', function() {

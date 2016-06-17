@@ -1,7 +1,7 @@
 'use strict';
 
 
-const lang = require('../lib/lang');
+const lang = require('..').Lang;
 
 
 describe('lang', function() {

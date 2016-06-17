@@ -1,7 +1,7 @@
 'use strict';
 
 
-const delegate = require('../lib/delegate');
+const delegate = require('../').Delegate;
 
 
 describe('delegate', function() {

@@ -1,7 +1,7 @@
 'use strict';
 
 
-const SafeString = require('../lib/safe-string');
+const SafeString = require('..').SafeString;
 
 
 describe('safe-string', function() {
